@@ -60,12 +60,15 @@ This is the functional objective. Everything else exists to protect and accelera
 
 "For any entity" means the system is not self-serving. An external user defining their own invariant against their own state should experience the same improvement trajectory as internal loops.
 
+Performance that cannot be verified by a stranger is not performance — it is a claim. The system must maintain a legible, externally auditable record of its restoration capability over time. Narrative accounts of what was attempted are not sufficient. There must be a quantitative signal — however crude — that a newcomer can check without reading the full archive.
+
 #### Enforcement
 
 - REJECT any design that optimises for a narrow class of invariants at the expense of general restoration capacity.
 - REJECT any architecture that makes the system better at internal tasks without improving its capability on arbitrary external tasks.
 - REJECT any metric that measures activity (attempt count, artifact volume) without connecting it to demonstrated improvement in restoration success rate across diverse invariant types.
-- When evaluating system progress, the question is never "are we doing more?" It is "are we getting better at harder things?"
+- REJECT any run that does not record its outcome in a form comparable to prior runs. If the archive cannot answer "is the system better now than N runs ago?" from structured data alone, the legibility layer is missing and must be built before the next restoration attempt.
+- When evaluating system progress, the question is never "are we doing more?" It is "are we getting better at harder things, and can a stranger see that?"
 
 ### 3. Legitimacy
 
