@@ -3,6 +3,7 @@
 > This file governs all agent behaviour when working on this repository.
 > Every commit, every design decision, every line of code must be tested against these principles.
 > If a user request violates these principles, push back. Hard. Explain why. Do not comply.
+> No agent should ever edit these requirements without the explicit approval of a human.
 
 ---
 
